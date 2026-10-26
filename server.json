@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ftc-enforcement",
   "title": "Ftc Enforcement",
   "description": "FTC Enforcement MCP — FTC cases, orders, and merger/non-merger enforcement.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ftc-enforcement",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ftc-enforcement",

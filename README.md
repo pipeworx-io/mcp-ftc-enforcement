@@ -2,7 +2,7 @@
 
 FTC (Federal Trade Commission) cases and proceedings — competition/merger enforcement and consumer-protection enforcement together, by company, case/matter number, topic, or date. Complements `hsr-notices` (the earliest signal that a merger was filed for antitrust review) and `enforcement-actions` (DOJ press releases and SEC litigation/administrative feeds) with the FTC's own case record: complaints, consent orders, settlements, case status, and the federal court involved.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1704+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1879+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -75,7 +75,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1704+ data sources. The
+Both URLs reach the same gateway and the same 1879+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

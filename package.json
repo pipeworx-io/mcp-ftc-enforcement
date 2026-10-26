@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ftc-enforcement",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FTC Enforcement MCP — FTC cases, orders, and merger/non-merger enforcement.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-250f9cd77fa4309825b74ee7cd5a176a0891673ae130682c016703519ac95a2d",
-    "sourceCommit": "eb436cf60f06c9b79701a15cd1670609580544a5"
+    "sourceHash": "v1-ce7dd4c0f51eaecdc5fe3893576c49105f8766f4e59a1a51e3eef5e5345116fb",
+    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
   }
 }
