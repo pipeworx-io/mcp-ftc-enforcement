@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-ftc-enforcement",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "FTC Enforcement MCP — FTC cases, orders, and merger/non-merger enforcement.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-ftc-enforcement": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ftc-enforcement"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-ftc-enforcement.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/ftc-enforcement",
   "pipeworx": {
-    "sourceHash": "v1-ce7dd4c0f51eaecdc5fe3893576c49105f8766f4e59a1a51e3eef5e5345116fb",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "ftc-enforcement",
+    "gatewaySlug": "ftc-enforcement",
+    "sourceHash": "v1-15bd0010950a9762359bdeaad584cd6e0ea686e9b9054744e0837e7cb8d65638",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
